@@ -1,0 +1,259 @@
+html, body
+{
+    margin: 0vw 0vh;
+    font-family: 'Montserrat';
+    background-color: rgb(41, 119, 184);
+}
+
+#main_div
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#opcoes
+{
+    margin-bottom: 15%;
+    width: 100%;
+    height: 8vh;
+    max-width: 100vw;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#meio_topo
+{
+    background-color: rgb(4, 82, 145);
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+#menu
+{
+    margin-left: 2%;
+    background-image: url(img/img_menu.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(4, 82, 145);
+}
+
+#logo
+{
+    background-image: url(img/logo_ralth-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: rgb(4, 82, 145);
+}
+
+#src
+{
+    background-image: url(img/lupa-removebg-preview.png);
+    background-color: rgb(4, 82, 145);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+/* CARROSSEL */
+
+.carrossel
+{
+    width: 100%;
+    max-width: 100vw;
+    height: 30vh;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+  
+  .conteudo
+{
+    display: flex;
+}
+  
+.item 
+{
+
+    width: 100%;
+    height: 30vh;
+    flex-shrink: 0;
+    background-position: center;
+}
+  
+.img1 
+{ 
+    background-image: url(img/carrossel_1.jpg); 
+    background-size:cover;
+    background-position: center;
+}
+
+.img2 
+{ 
+    background-image: url(img/carrossel_2.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 
+{ 
+    background-image: url(img/carrossel_3.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.img4 
+{ 
+    background-image: url(img/carrossel_4.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+  
+.anterior, .proximo 
+{
+    color: white;
+}
+
+/* ESCOLAS*/
+
+#escolas
+{
+    margin-top: 8%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* RODAPE */
+
+#rodape
+{
+    background-color: rgb(4, 82, 145);
+    margin-top: 25%;
+    font-size: 15px;
+    width: 75%;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#complemento1
+{
+    margin-left: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#complemento
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#insta
+{
+    width: 15%;
+    height: 5vh;
+    background-image: url(img/logo_instagram.png);
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 2%;
+}
+
+#wzp
+{
+    width: 15%;
+    height: 5vh;
+    background-image: url(img/img_wzp.png);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+#item_1
+{
+    background-image: url(img/logo_atos.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#item_2
+{
+    background-image: url(img/logo_supremo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#item_3
+{
+    background-image: url(img/logo_elizabeth.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#item_4
+{
+    background-image: url(img/logo_ihf.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#item_5
+{
+    background-image: url(img/logo_ccv.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#item_6
+{
+    background-image: url(img/logo_construir.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.opc
+{
+    background-color: white;
+    width: 25%;
+    padding: 10px;
+}
+
+.iten_escola
+{
+    width: 12%;
+    height: 8vh;
+    text-align: center;
+    padding: 40px;
+    margin: 0.5%;
+}
+
+
