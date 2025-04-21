@@ -17,6 +17,7 @@ html, body
 
 #opcoes
 {
+    margin-top: 5%;
     margin-bottom: 15%;
     width: 100%;
     height: 8vh;
@@ -143,7 +144,7 @@ html, body
     background-color: rgb(4, 82, 145);
     margin-top: 25%;
     font-size: 15px;
-    width: 75%;
+    width: 100%;
     height: 6vh;
     display: flex;
     flex-direction: row;
